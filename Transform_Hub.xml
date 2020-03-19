@@ -1,5 +1,5 @@
 <Seed Pos="10" Display="IPinfo">
-	<Url Visible="false">https://cetas.paterva.com/TDS/runner/showseed/HostIO</Url> <!--visible is optional, default "false"--> 
+	<Url Visible="false">https://cetas.paterva.com/TDS/runner/showseed/hostio</Url> <!--visible is optional, default "false"--> 
 	<Description>Get a list of outbound links, backlinks and more for a given domain.</Description> 
 	<Details>Enrich IP Address, Domain and ASN.</Details> 
 	<Modified>1584062200</Modified> <!-- unix time --> 
@@ -17,7 +17,7 @@
 	</Registration>
 	<Pricing>
 		<Info></Info>
-		<Website>https://ipinfo.io/pricing</Website>
+		<Website>http://host.io/pricing</Website>
 	</Pricing>
 	<Inputs> 
 		<Input Name="IPinfoToken" Display="IPinfo API Token" Type="string" Optional="false" Auth="true"/>
